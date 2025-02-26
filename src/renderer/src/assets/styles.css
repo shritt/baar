@@ -1,7 +1,14 @@
-#drag {
+@import "tailwindcss";
+
+.drag {
   -webkit-app-region: drag;
 }
 
-#no-drag {
+.no-drag {
   -webkit-app-region: no-drag;
+}
+
+input {
+  text-indent: 5px;
+  padding: 5px;
 }
